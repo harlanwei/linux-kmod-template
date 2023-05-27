@@ -1,22 +1,22 @@
 /**
- * This is the entry of the module.
+ * The entry of the !!NAME!! module.
  */
 
 #include "common.h"
 
-/* Optional; uncomment this line if you need it. */
-// MODULE_LICENSE(GPL);
+/* TODO: modify this line per your need. */
+MODULE_LICENSE("GPL v2");
 
 int __init !!NAME!!_init(void)
 {
-    /* Your code here */
+    /* TODO: insert your code here */
     !!NAME!!_info("initialized.");
     return 0;
 }
 
 void __exit !!NAME!!_exit(void)
 {
-    /* Your code here */
+    /* TODO: insert your code here */
     !!NAME!!_info("removed.");
 }
 
