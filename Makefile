@@ -1,4 +1,4 @@
-MODULE_NAME = hello
+MODULE_NAME = !!NAME!!
 KERNELDIR = /usr/src/linux-headers-$(shell uname -r)
 NPROC = $(shell nproc)
 
