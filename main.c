@@ -21,4 +21,4 @@ void __exit !!NAME!!_exit(void)
 }
 
 module_init(!!NAME!!_init);
-module_exit(fin_exit);
+module_exit(!!NAME!!_exit);
