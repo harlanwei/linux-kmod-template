@@ -3,7 +3,7 @@
 Initialize this module with a name by executing:
 
 ```shell
-name=<module's name> ./init.sh
+./init.sh <module's name> <dist path>
 ```
 
 After this, you can compile your module by:
